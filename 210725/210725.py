@@ -47,3 +47,52 @@
 # for i in range(1, 11):
 #     l *= i
 # print(l)
+
+# 171
+# l = [32100, 32150, 32000, 32500]
+# for i in range(4):
+#     print(l[i])
+
+# 172
+# for i in range(len(l)):
+#     print(i, l[i])
+
+# 173
+# for i in range(0, len(l)):
+#     print(3 - i, l[i])
+
+# 174
+# for i in range(1, len(l)):
+#     print(90 + i * 10, l[i])
+
+# 175
+# l = ["가", "나", "다", "라"]
+# for i in range(len(l) - 1):
+#     print(l[i], l[i + 1])
+
+# 176
+# l = ["가", "나", "다", "라", "마"]
+# for i in range(len(l) - 2):
+#     print(l[i], l[i + 1], l[i + 2])
+
+# 177
+# for i in range(len(l) - 1):
+#     print(l[len(l) - 1 - i], l[len(l) - 2 - i])
+
+# 178
+# l = [100, 200, 400, 800]
+# for i in range(len(l) - 1):
+#     print(l[i + 1] - l[i])
+
+# 179
+# l = [100, 200, 400, 800, 1000, 1300]
+# for i in range(len(l) - 2):
+#     print((l[i] + l[i + 1] + l[i + 2]) / 3)
+
+# 180
+# volatility = []
+# l = [100, 200, 400, 800, 1000]
+# h = [150, 300, 430, 880, 1000]
+# for i in range(len(l)):
+#     volatility.append(h[i] - l[i])
+# print(volatility)
